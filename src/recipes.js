@@ -1,4 +1,4 @@
-import lemon from "../src/images/lemon dessert.jpg"
+
 const recipes=[
     {
         id: 1,

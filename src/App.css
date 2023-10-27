@@ -204,4 +204,92 @@ input,label{
   font-weight: 600;
 }
 
+/* footer section */
+footer section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 13%;
+}
+.company-info img{
+  margin-top: 12px;
+  cursor: pointer;
+  width: 200px;
+}
+.company-info{
+  width: 320px;
+}
+footer h3{
+  font-size: 18px;
+}
+footer ul{
+  padding: 0;
+}
+footer ul li{
+  padding: 8px 0;
+}
+footer span{
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+  .menu-icon {
+    display: block;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  .nav-links.visible {
+    display: flex;
+    background: #333333;
+    z-index: 1000;
+    padding: 20px 0;
+  }
+  .navbar{
+    background:#fff;
+    padding: 10px 8%;
+  }
+  nav ul li a{
+    color: #fff;
+  }
+  .bar{
+    background: #333333;
+    border-radius: 2px;
+  }
+  .bannerImg{
+    display:none
+  }
+  form, .confirm{
+    padding: 10px 8%;
+  }
+  .header section, .menu-container{
+    padding: 10px 8%;
+  }
+  .menu-container{
+    margin: 20px 0;
+  }
+  .menu-header{
+    justify-content: flex-start;
+  }
+  .menu-items{
+    width: 100%;
+  }
+  
+  footer section{
+    padding: 10px 8%;
+    flex-direction: column;
+  }
+  .company-info p{
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
 

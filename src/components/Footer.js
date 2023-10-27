@@ -3,7 +3,7 @@ import small_logo from "../images/Logo.svg"
 
 const Footer = () => {
     return(
-        <footer className="">
+        <footer>
             <section>
             <div className="company-info">
                 <img src={small_logo} alt=""/>
@@ -23,9 +23,9 @@ const Footer = () => {
             <div>
                 <h3>Contact</h3>
             <ul>
-            <li>Address: <br/> 123 Town Street, Chicago</li>
-                <li>Phone: <br/> +00 123 456 789</li>
-                <li>Email: <br/> little@lemon.com</li>
+            <li><span>Address:</span> <br/> 123 Town Street, Chicago</li>
+                <li><span>Phone:</span><br/> (+01) 123 456 789</li>
+                <li><span>Email:</span> <br/> little@lemon.com</li>
             </ul>
             </div>
             <div>
