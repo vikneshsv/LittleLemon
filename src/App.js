@@ -1,4 +1,4 @@
-// import react from 'react';
+ import react from 'react';
 import './App.css';
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
